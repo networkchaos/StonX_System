@@ -4,7 +4,7 @@ import * as SecureStore from 'expo-secure-store';
 // ──────────────────────────────────────────────────────────────────────────
 //  Replace with your deployed backend URL
 // ──────────────────────────────────────────────────────────────────────────
-export const API_BASE_URL = 'https://your-backend.railway.app';  // Change this!
+export const API_BASE_URL = 'http://localhost:3000';  // Change this!
 
 const api = axios.create({
   baseURL: `${API_BASE_URL}/api`,
